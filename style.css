@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.reynold-footer {
+    background:#00599c;
+    color: #fff;
+    margin-top: 0;
+    padding: 35px 0 20px;
+}
+.container{
+    max-width: 1253px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    border-bottom: 2px solid #ed1c24;
+    padding-bottom: 20px;
+   
+}
+
+.footer-subscribe{
+    display:flex;
+    
+}
+.footer-submain a{
+    text-decoration: none;
+    color:white;
+
+}
+.footer-submain li{
+list-style-type: none;
+line-height: 25px;
+
+}
+
+.field a{
+    color:white;
+}
+.field .field-text {
+    width:350px;
+    display:inline;
+    font-size:12px;
+ 
+}
+
+
+/* .caption{
+    display:inline;
+    background-color:red;
+    height: 52px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+
+} */
+.footer-last p{
+text-align:right;
+font-size:16px;
+margin:0;
+line-height: 24px;
+
+
+
+}
+
+.footer-submain .logo img{
+   
+   padding-right: 0;
+}
+
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+    padding:20px;
+}
+.subscribe-input{
+    border:1px solid white;
+    padding:10px;
+    width:300px;
+}
+.subscribe-button{
+    background-color: red;
+    color:white;
+    padding:10px 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    font-size: small;
+}
+
+ 
+ 
